@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Varela Round', sans-serif;
+    border-spacing: border-box;
+}
+
+.spotify{
+    display: flex;
+}
+
+.navbar{
+    width:320px;
+    border-right: 2px solid white;
+    position: relative
+}
+
+/* Home-logo */
+
+.home-logo{
+    height: 44px;
+    padding-top:20px;
+    padding-left:20px;
+    background-color: #121212;
+}
+
+.logo{
+    filter: invert(1);
+}
+
+/* Home-Search */
+
+.home-home{
+    color: white;
+    background-color: #121212;
+    font-weight: 700;
+    display: flex;
+}
+
+.home-search{
+    color:white;
+    background-color: #121212;
+    font-weight: 700;
+    display: flex;
+    padding-top:20px;
+    height: 40px;
+}
+
+.Home {
+    margin-left: 20px;
+}
+
+.Search{
+    margin-left: 20px;
+}
+
+.nav-home i{
+    margin-left: 20px;
+}
+
+/* Library */
+
+.library{
+    height:40px;
+    color: white;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    gap:14px;
+    font-weight: 700;
+}
+
+.library-icon{
+    margin-left: 20px;
+}
+
+.library p{
+    width:70%;
+}
+
+/* Playlist */
+
+.library-playlist{
+    background-color: black;
+    color:white;
+    height: 220px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* Terms */
+
+.library-terms{
+    background-color: #121212;
+    font-size: 0.65rem;
+    padding-top: 14px;
+    padding-bottom: 20px;
+}
+
+.terms-1{
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.terms-2{
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:16px;
+}
+
+.terms-3{
+    color:white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 38px;
+    margin-top:16px;
+}
+
+.English{
+    display: flex;
+    color:white;
+    border: 2px solid white;
+    border-radius: 35px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 1.1 rem;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.English i{
+    font-size: 1.2rem;
+    margin-right: 4px;
+}
+
+/* Hero-section */
+
+.Hero-bar{
+    height:65px;
+    background-color: #121212;
+    width:75vw;
+    display: flex;
+    align-items: center;
+}
+
+.Heroi{
+    color: white;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 12px;
+}
+
+.bart{
+    color:white;
+    position: absolute;
+    right: 60px;
+}
+
+.sign-up{
+    margin-right: 140px;
+}
+
+.log-in{
+    background-color: #fff;
+    color: black;
+    width: 115px;
+    height: 50px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+/* Hero-Playlist */
+
+.HSP{
+    color: white;
+    background-color: #121212;
+    border-top: 1px solid white;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.HSP-P1{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.HSP-P2{
+    position:absolute;
+    right:20px;
+    font-size: 0.85rem;
+}
+
+/* Hero-cards */
+
+.Hero-cards{
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 220px;
+    width: 220px;
+    background-color: #121212; 
+    padding-top: 15px;
+    border: 0.5px solid #fff;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.card-img{
+    height: 145px;
+    width: 145px;
+    margin-left: 38px;
+}
+
+.C1P1{
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.C1P2{
+    color: #fff;
+    font-size: 0.85rem;
+    margin-top: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero-Block - ul*/
+
+.Hero-Block{
+    background-color: black;
+}
+
+.Block{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:60px;
+    height: 200px;
+}
+
+.Block a{
+    font-size: 0.75rem;
+    display: block;
+    margin-top:14px;
+}
+
+.Block p{
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
